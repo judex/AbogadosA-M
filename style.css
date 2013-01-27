@@ -1,0 +1,97 @@
+.img-Big-slider{
+width: 620px;
+height: 280px;
+border: 10px rgba(255, 255, 255, 0) solid;
+box-shadow: 0px 1px 1px 1px #919191;
+}
+
+#featured{
+	width:960px;/*100%*/
+	position:relative;
+	height:305px;
+	margin:0 auto;
+}
+#featured ul.ui-tabs-nav{
+	position:absolute;
+    top:0; left:640px;
+    list-style:none;
+    padding:0; margin:0;
+    width:318px;
+}
+#featured ul.ui-tabs-nav li{
+	padding:2px 0; padding-left:13px;
+	font-size:12px;
+	color:#666;
+}
+#featured ul.ui-tabs-nav li img{
+float: left;
+margin: 2px 5px;
+background: white;
+padding: 2px;
+border: 1px solid #EEE;
+-webkit-filter: grayscale(1);
+}
+#featured ul.ui-tabs-nav li span{
+	font-size:11px; font-family:Helvetica;
+	line-height:18px;
+}
+#featured li.ui-tabs-nav-item a{
+display: block;
+height: 70px;
+-webkit-box-shadow: 0px 1px 1px #919191;
+-moz-box-shadow: 0px 1px 1px #919191;
+-o-box-shadow: 0px 1px 1px #919191;
+box-shadow: 0px 1px 1px #919191;
+margin: 1px 0px;
+color: #4E4E4E !important;
+background: #F0EFE8;
+border-right: 3px solid #9A0505;
+line-height: 20px;
+text-decoration: none;
+}
+#featured li.ui-tabs-nav-item a:hover{
+	color:#f2f2f2;
+}
+#featured li.ui-tabs-selected, #featured li.ui-tabs-active{
+	background:url('images/slider/selected-item.gif') top left no-repeat;
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a, #featured ul.ui-tabs-nav li.ui-tabs-active a{
+	background:#ddd;
+    border-left:5px transparent solid;
+    border-right: 3px solid #2B2B2B;
+}
+#featured .ui-tabs-panel{
+	width:640px; height:300px;
+     position:relative;
+}
+#featured .ui-tabs-panel .info{
+	position:absolute;
+    top:200px;
+    left:10px;
+    height:70px;
+    background:rgba(77, 6, 22, 0.94);
+    width: 620px;
+}
+#featured .ui-tabs-panel .info a.hideshow{
+	position:absolute; font-size:11px; font-family:Verdana; color:#f0f0f0; right:10px; top:-20px; line-height:20px; margin:0; outline:none; background:#333;
+}
+#featured .info h2{
+	font-size:18px; font-family:'Dosis';
+    color:#fff; padding:5px; margin:0;
+    overflow:hidden;
+}
+#featured .info p{
+	margin:0 5px;
+    font-family:'Dosis'; font-size:14px;
+    line-height:15px; color:#f0f0f0;
+}
+#featured .info a{
+	text-decoration:none;
+	color:#fff;
+}
+#featured .info a:hover{
+	text-decoration:underline;
+}
+#featured .ui-tabs-hide{
+	display:none;
+}

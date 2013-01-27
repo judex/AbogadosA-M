@@ -1,0 +1,19 @@
+/* Abohadosam.com |  */
+
+/* TEAM */
+		Creator: Marcelo Sulca Nieto
+		Contact: ms_sotfware[at]outlook.com
+		Twitter: @judex_m
+		
+/* IN MEMORIAL*/
+		fiobiola
+		
+/* THANKS */
+		Angel torres
+		
+/* SITE*/
+		 last update: 2012/11/24
+		 language: Español
+		 standars: HTML5, CSS3, javaScript
+		 components: jQuery
+		 Software: Aptana Studio3, CorelDraw X5 , Adobe Suite CS5 (Fhotoshop, Fireworks);
